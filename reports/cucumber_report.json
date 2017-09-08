@@ -1,0 +1,714 @@
+[
+  {
+    "description": "  As a developer\n  I want to have webdriver available to me in my steps\n  So that I don't have to configure my world object and I focus on testing",
+    "elements": [
+      {
+        "id": ";visit-contacts-page-in-prod",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Visit Contacts page in PROD",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit \"https://sbis.ru\"",
+            "result": {
+              "status": "passed",
+              "duration": 1435868712
+            },
+            "line": 8,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the button \".sbis_ru-Header__menu > a:nth-child(5)\"",
+            "result": {
+              "status": "passed",
+              "duration": 853306092
+            },
+            "line": 9,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \".sbis_ru-header-h2\" matches the text \"КОНТАКТЫ\"",
+            "result": {
+              "status": "passed",
+              "duration": 975092117
+            },
+            "line": 10,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \".sbis_ru-salesPoints__regionChooser\" matches the text \"Ярославская обл.\"",
+            "result": {
+              "status": "passed",
+              "duration": 505702470
+            },
+            "line": 11,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \"#city-1\" matches the text \"Ярославль\"",
+            "result": {
+              "status": "passed",
+              "duration": 137111412
+            },
+            "line": 12,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 160078
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\ia.gavrichenko\\.node_modules_global\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";visit-contacts-fix",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Visit Contacts FIX",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit \"https://fix.sbis.ru\"",
+            "result": {
+              "status": "passed",
+              "duration": 1109488632
+            },
+            "line": 16,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the button \".sbis_ru-Header__menu > a:nth-child(5)\"",
+            "result": {
+              "status": "passed",
+              "duration": 2037639634
+            },
+            "line": 17,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \".sbis_ru-header-h2\" matches the text \"КОНТАКТЫ\"",
+            "result": {
+              "status": "passed",
+              "duration": 532430228
+            },
+            "line": 18,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \".sbis_ru-salesPoints__regionChooser\" matches the text \"Ярославская обл.\"",
+            "result": {
+              "status": "passed",
+              "duration": 294773014
+            },
+            "line": 19,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \"#city-1\" matches the text \"Ярославль\"",
+            "result": {
+              "status": "passed",
+              "duration": 120384467
+            },
+            "line": 20,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 57422
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\ia.gavrichenko\\.node_modules_global\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";visit-contacts-test",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Visit Contacts TEST",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit \"https://test.sbis.ru\"",
+            "result": {
+              "status": "passed",
+              "duration": 1606848160
+            },
+            "line": 23,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the button \".sbis_ru-Header__menu > a:nth-child(5)\"",
+            "result": {
+              "status": "passed",
+              "duration": 1883946919
+            },
+            "line": 24,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \".sbis_ru-header-h2\" matches the text \"КОНТАКТЫ\"",
+            "result": {
+              "status": "passed",
+              "duration": 892587239
+            },
+            "line": 25,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \".sbis_ru-salesPoints__regionChooser\" matches the text \"Ярославская обл.\"",
+            "result": {
+              "status": "passed",
+              "duration": 256189277
+            },
+            "line": 26,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \"#city-1\" matches the text \"Ярославль\"",
+            "result": {
+              "status": "passed",
+              "duration": 135114457
+            },
+            "line": 27,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 42987
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\ia.gavrichenko\\.node_modules_global\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";visit-contacts-pre-test",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Visit Contacts PRE-TEST",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit \"https://pre-test.sbis.ru\"",
+            "result": {
+              "status": "passed",
+              "duration": 1546724576
+            },
+            "line": 30,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the button \".sbis_ru-Header__menu > a:nth-child(5)\"",
+            "result": {
+              "status": "passed",
+              "duration": 2814436204
+            },
+            "line": 31,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \".sbis_ru-header-h2\" matches the text \"КОНТАКТЫ\"",
+            "result": {
+              "status": "passed",
+              "duration": 936289917
+            },
+            "line": 32,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \".sbis_ru-salesPoints__regionChooser\" matches the text \"Ярославская обл.\"",
+            "result": {
+              "status": "passed",
+              "duration": 142594777
+            },
+            "line": 33,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \"#city-1\" matches the text \"Ярославль\"",
+            "result": {
+              "status": "passed",
+              "duration": 257228336
+            },
+            "line": 34,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 54536
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\ia.gavrichenko\\.node_modules_global\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";change-region-in-contacts-page-in-prod",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Change region in contacts page in PROD",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit \"https://sbis.ru/contacts\"",
+            "result": {
+              "status": "passed",
+              "duration": 1413799874
+            },
+            "line": 39,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \"#city-1\" matches the text \"Ярославль\"",
+            "result": {
+              "status": "passed",
+              "duration": 553538925
+            },
+            "line": 40,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the button \".sbis_ru-salesPoints__regionChooser\"",
+            "result": {
+              "status": "passed",
+              "duration": 236302172
+            },
+            "line": 41,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the button \".sbis_ru-ChooserPanel__listContainer>div>div:nth-child(3)>span\"",
+            "result": {
+              "status": "passed",
+              "duration": 91821756
+            },
+            "line": 42,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#city-1\" matches the text \"Майкоп\"",
+            "result": {
+              "status": "passed",
+              "duration": 726929475
+            },
+            "line": 43,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 86936
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\ia.gavrichenko\\.node_modules_global\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@watch",
+            "line": 37
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": ";change-region-in-contacts-page-in-fix",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "Change region in contacts page in FIX",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit \"https://fix.sbis.ru/contacts\"",
+            "result": {
+              "status": "passed",
+              "duration": 1484503309
+            },
+            "line": 46,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \"#city-1\" matches the text \"Ярославль\"",
+            "result": {
+              "status": "passed",
+              "duration": 771473602
+            },
+            "line": 47,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the button \".sbis_ru-salesPoints__regionChooser\"",
+            "result": {
+              "status": "passed",
+              "duration": 115337384
+            },
+            "line": 48,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the button \".sbis_ru-ChooserPanel__listContainer>div>div:nth-child(3)>span\"",
+            "result": {
+              "status": "passed",
+              "duration": 246603893
+            },
+            "line": 49,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#city-1\" matches the text \"Майкоп\"",
+            "result": {
+              "status": "passed",
+              "duration": 552495697
+            },
+            "line": 50,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 56781
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\ia.gavrichenko\\.node_modules_global\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";change-region-in-contacts-page-in-test",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Change region in contacts page in TEST",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit \"https://test.sbis.ru/contacts\"",
+            "result": {
+              "status": "passed",
+              "duration": 1676687371
+            },
+            "line": 53,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \"#city-1\" matches the text \"Ярославль\"",
+            "result": {
+              "status": "passed",
+              "duration": 577562374
+            },
+            "line": 54,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the button \".sbis_ru-salesPoints__regionChooser\"",
+            "result": {
+              "status": "passed",
+              "duration": 231295509
+            },
+            "line": 55,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the button \".sbis_ru-ChooserPanel__listContainer>div>div:nth-child(3)>span\"",
+            "result": {
+              "status": "passed",
+              "duration": 92449874
+            },
+            "line": 56,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#city-1\" matches the text \"Майкоп\"",
+            "result": {
+              "status": "passed",
+              "duration": 195007067
+            },
+            "line": 57,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 40741
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\ia.gavrichenko\\.node_modules_global\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";change-region-in-contacts-page-in-pre-test",
+        "keyword": "Scenario",
+        "line": 59,
+        "name": "Change region in contacts page in PRE-TEST",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit \"https://pre-test.sbis.ru/contacts\"",
+            "result": {
+              "status": "passed",
+              "duration": 2531586856
+            },
+            "line": 60,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \"#city-1\" matches the text \"Ярославль\"",
+            "result": {
+              "status": "passed",
+              "duration": 573665665
+            },
+            "line": 61,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the button \".sbis_ru-salesPoints__regionChooser\"",
+            "result": {
+              "status": "passed",
+              "duration": 121222707
+            },
+            "line": 62,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the button \".sbis_ru-ChooserPanel__listContainer>div>div:nth-child(3)>span\"",
+            "result": {
+              "status": "passed",
+              "duration": 239932940
+            },
+            "line": 63,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#city-1\" matches the text \"Майкоп\"",
+            "result": {
+              "status": "passed",
+              "duration": 654648365
+            },
+            "line": 64,
+            "match": {
+              "location": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/step_definitions/given.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 57102
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\ia.gavrichenko\\.node_modules_global\\node_modules\\chimp\\dist\\lib\\cucumberjs\\hooks.js:68"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/Users/ia.gavrichenko/Desktop/Chimp-Cucumber-WebdriverIo/features/webdriver.feature"
+  }
+]
